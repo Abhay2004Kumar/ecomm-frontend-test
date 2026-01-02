@@ -16,9 +16,6 @@ export default function Home() {
           <Link href="/products">
             <Button size="lg">Shop Now</Button>
           </Link>
-          <Link href="/admin">
-            <Button variant="outline" size="lg">Admin Dashboard</Button>
-          </Link>
         </div>
       </div>
     </div>

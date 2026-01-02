@@ -31,9 +31,6 @@ export default function Navbar() {
                 <Link href="/orders">
                   <Button variant="ghost">Orders</Button>
                 </Link>
-                <Link href="/admin">
-                  <Button variant="ghost">Admin</Button>
-                </Link>
                 <div className="flex items-center gap-2">
                   <User className="h-5 w-5" />
                   <span className="text-sm">{user?.name}</span>
